@@ -1,6 +1,3 @@
-
-import math
-
 """This program calculates the Monthly payments on a house- Mortage. it uses the following formula
 
 M = P[r/n]/[1-[1+(r/n)]^ -nt],
@@ -11,6 +8,22 @@ r = interest rate for the term
 n = # of months in a year
 t = term (Length of loan in years)
 """ 
+
+
+
+
+import math # needed for the exponent part of the equation
+
+# importing tkinter  for dialogue boxes
+from tkinter import * 
+
+
+
+
+
+
+
+
 
 n=12
 
